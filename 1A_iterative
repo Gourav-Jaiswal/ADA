@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int x,y;
+  cout<<"\n Enter x: ";
+  cin>>x;
+  cout<<"\n Enter y: ";
+  cin>>y;
+  int ans=0;
+  for(int i=1; i<=y; i++)
+  {
+    ans+=x;
+  }
+  cout<<"\n Ans= "<<ans<<endl;
+  return 0;
+}
