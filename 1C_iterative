@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x,y,count=0;
+    cout<<"Enter x: ";
+    cin>>x;
+    cout<<"Enter y: ";
+    cin>>y;
+    while(x>0)
+    {
+        x=x-y;
+        count=count+1;
+    }
+    cout<<"\n Ans= "<<count;
+    return 0;
+}
